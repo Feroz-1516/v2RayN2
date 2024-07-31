@@ -4,9 +4,9 @@ package v2ray.core.app.stats.command;
 option csharp_namespace = "ProtosLib.Statistics";
 
 message GetStatsRequest {
-  // Name of the stat counter.
+  
   string name = 1;
-  // Whether or not to reset the counter to fetching its value.
+
   bool reset = 2;
 }
 
